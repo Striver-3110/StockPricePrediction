@@ -104,3 +104,24 @@ The chart shows the predicted values in comparison to the actual historical data
 - **R-squared (R²)**: A measure of how well the model's predictions match the actual data.
 
 You can customize the image by placing your result visualization (e.g., `prediction_results.png`) in the same directory and updating the path if needed.
+
+
+## Contributing
+
+If you'd like to contribute to this project, follow the steps below:
+
+1. **Fork the repository**:
+   - Click on the "Fork" button at the top right of the repository page.
+
+2. **Create a new branch for your feature**:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Commit your changes:**
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+
+## License
+
+This project is licensed under the MIT License.
