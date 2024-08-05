@@ -121,7 +121,6 @@ If you'd like to contribute to this project, follow the steps below:
    ```bash
    git commit -m 'Add new feature'
    ```
-   
 
 ## License
 
