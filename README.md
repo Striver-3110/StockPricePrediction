@@ -85,4 +85,22 @@ To train the LSTM model using your dataset, use the following steps:
    ```bash
    python train.py --data data/stock_data.csv
 
-   
+## Results
+
+After training the model and making predictions, the results can be visualized to see the model's performance compared to actual stock prices.
+
+### Sample Result
+
+Below is a sample visualization of the predicted stock prices compared to actual prices:
+
+![Stock Price Prediction](./prediction_results.png)
+
+The chart shows the predicted values in comparison to the actual historical data, indicating the model's accuracy in forecasting future stock prices.
+
+### Evaluation Metrics
+
+- **Mean Squared Error (MSE)**: Measures the average squared difference between the predicted and actual prices.
+- **Root Mean Squared Error (RMSE)**: Square root of MSE, providing error in the same unit as the stock prices.
+- **R-squared (R²)**: A measure of how well the model's predictions match the actual data.
+
+You can customize the image by placing your result visualization (e.g., `prediction_results.png`) in the same directory and updating the path if needed.
