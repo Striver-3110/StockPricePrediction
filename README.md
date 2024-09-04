@@ -68,3 +68,19 @@ The model is designed using a Sequential architecture with four LSTM layers and 
 
 5. **Dense Layer**:
    - Units: 1 (*Single unit to output the predicted stock price*)
+
+
+## Usage
+
+### 1. **Data Preparation**
+
+Before using the model, you need to download and format the stock market data. You can get the historical stock data from sources like **Yahoo Finance** or **Alpha Vantage** and save it as a CSV file. Ensure the data has columns such as *Date, Open, High, Low, Close, Volume*.
+
+### 2. **Training the Model**
+
+To train the LSTM model using your dataset, use the following steps:
+
+1. Place your dataset (CSV file) in the `data/` directory or specify the path in the command.
+2. Run the training script:
+   ```bash
+   python train.py --data data/stock_data.csv
