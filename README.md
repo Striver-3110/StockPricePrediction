@@ -84,4 +84,5 @@ To train the LSTM model using your dataset, use the following steps:
 2. Run the training script:
    ```bash
    python train.py --data data/stock_data.csv
+
    
